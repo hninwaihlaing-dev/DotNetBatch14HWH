@@ -24,7 +24,7 @@ connection.Close();
 
 foreach(DataRow dr in dt.Rows)
 {
-    Console.WriteLine(dr["Id"]);
+    Console.WriteLine(dr["BlogId"]);
     Console.WriteLine(dr["BlogTitle"]);
     Console.WriteLine(dr["BlogAuthor"]);
     Console.WriteLine(dr["BlogContent"]);
