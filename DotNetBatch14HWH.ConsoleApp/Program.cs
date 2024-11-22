@@ -49,3 +49,9 @@ Console.ReadLine();
 //Author
 //Content
 
+
+
+//calculator
+//Calculator calculator = new Calculator();
+//calculator.Calculation();
+
