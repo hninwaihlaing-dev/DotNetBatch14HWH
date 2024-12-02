@@ -9,7 +9,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetBatch14HWH.ConsoleApp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetBatch14HWH.ConsoleApp3", "DotNetBatch14HWH.ConsoleApp3\DotNetBatch14HWH.ConsoleApp3.csproj", "{4EA83AAA-C613-40BF-AEB1-E5CD57A15C9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetBatch14HWH.ConsoleApp4", "DotNetBatch14HWH.ConsoleApp4\DotNetBatch14HWH.ConsoleApp4.csproj", "{CD1BA81C-CF03-45E9-A88F-45CD4FD63AD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetBatch14HWH.ConsoleApp4", "DotNetBatch14HWH.ConsoleApp4\DotNetBatch14HWH.ConsoleApp4.csproj", "{CD1BA81C-CF03-45E9-A88F-45CD4FD63AD2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetBatch14HWH.ContosoPizza", "DotNetBatch14HWH.ContosoPizza\DotNetBatch14HWH.ContosoPizza.csproj", "{10A155A0-CCB5-4180-8E4F-BBD391295266}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetBatch14HWH.ConsoleAppEFCore", "DotNetBatch14HWH.ConsoleAppEFCore\DotNetBatch14HWH.ConsoleAppEFCore.csproj", "{D8D39186-4A98-4F34-867A-29B3B9FECF4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetBatch14HWH.WebApp1", "DotNetBatch14HWH.WebApp1\DotNetBatch14HWH.WebApp1.csproj", "{449FD6EF-9158-434D-AB37-298294932BD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetBatch14HWH.WebApplication2", "DotNetBatch14HWH.WebApplication2\DotNetBatch14HWH.WebApplication2.csproj", "{EE1FA5C8-5836-419E-BE64-1C3A4D69B487}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetBatch14HWH.RestApi", "DotNetBatch14HWH.RestApi\DotNetBatch14HWH.RestApi.csproj", "{6AAEBD6E-89FD-4CB6-B209-EDF6C7620C4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +43,26 @@ Global
 		{CD1BA81C-CF03-45E9-A88F-45CD4FD63AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD1BA81C-CF03-45E9-A88F-45CD4FD63AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD1BA81C-CF03-45E9-A88F-45CD4FD63AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10A155A0-CCB5-4180-8E4F-BBD391295266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A155A0-CCB5-4180-8E4F-BBD391295266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10A155A0-CCB5-4180-8E4F-BBD391295266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10A155A0-CCB5-4180-8E4F-BBD391295266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8D39186-4A98-4F34-867A-29B3B9FECF4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D39186-4A98-4F34-867A-29B3B9FECF4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8D39186-4A98-4F34-867A-29B3B9FECF4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8D39186-4A98-4F34-867A-29B3B9FECF4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{449FD6EF-9158-434D-AB37-298294932BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{449FD6EF-9158-434D-AB37-298294932BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{449FD6EF-9158-434D-AB37-298294932BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{449FD6EF-9158-434D-AB37-298294932BD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE1FA5C8-5836-419E-BE64-1C3A4D69B487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE1FA5C8-5836-419E-BE64-1C3A4D69B487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE1FA5C8-5836-419E-BE64-1C3A4D69B487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE1FA5C8-5836-419E-BE64-1C3A4D69B487}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AAEBD6E-89FD-4CB6-B209-EDF6C7620C4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AAEBD6E-89FD-4CB6-B209-EDF6C7620C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AAEBD6E-89FD-4CB6-B209-EDF6C7620C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AAEBD6E-89FD-4CB6-B209-EDF6C7620C4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
