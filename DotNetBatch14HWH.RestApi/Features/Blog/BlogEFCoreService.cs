@@ -12,7 +12,7 @@ public class BlogEFCoreService : IBlogService
     {
         _db = new AppDbCotext();
     }
-
+    /
     public BlogResponseMode CreateBlog(BlogModel requestModel)
     {
         requestModel.BlogId = Guid.NewGuid().ToString();

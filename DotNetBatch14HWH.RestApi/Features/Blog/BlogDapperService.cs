@@ -66,7 +66,7 @@ public class BlogDapperService : IBlogService
         using IDbConnection db = new SqlConnection(_sqlConnectionStringBuilder.ConnectionString);
 
         var item = db.QueryFirstOrDefault<BlogModel>(query, new { BlogId = id });
-        return item;
+        return item!;
     }
 
     public List<BlogModel> GetBlogs()
