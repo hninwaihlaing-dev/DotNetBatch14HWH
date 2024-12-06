@@ -4,9 +4,9 @@
     {
         TransferResponseModel CreateTransaction(TransactionModel requestTransactionModel, int Password);
         UserModel GetUserData(string MobileNo);
-
         TransferResponseModel CreateUser(UserModel user);
         List<TransactionModel> GetTransaction(string MobileNo);
+        TransferResponseModel PatchBalance(string MobileNo, decimal increasedAmount);
 
     }
 }

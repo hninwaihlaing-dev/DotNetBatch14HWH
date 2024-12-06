@@ -172,5 +172,10 @@ END CATCH;
             model.Password = Convert.ToInt32(row["Password"].ToString());
             return model;
         }
+
+        public TransferResponseModel PatchBalance(string MobileNo, decimal increasedAmount)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

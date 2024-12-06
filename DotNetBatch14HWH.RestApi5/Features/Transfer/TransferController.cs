@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.DataAnnotations;
 
 namespace DotNetBatch14HWH.RestApi5.Features.Transfer
 {
@@ -48,5 +49,18 @@ namespace DotNetBatch14HWH.RestApi5.Features.Transfer
             }
             return Ok(model);
         }
+
+        [HttpPatch]
+        public IActionResult PatchBalance(string mobileNo, decimal increasedAmount)
+        {
+            var model = transferService.PatchBalance(mobileNo, increasedAmount);
+
+            if (!model.IsSuccess)
+            {
+                BadRequest(model);
+            }
+            return Ok(model);
+        }
+
     }
 }
