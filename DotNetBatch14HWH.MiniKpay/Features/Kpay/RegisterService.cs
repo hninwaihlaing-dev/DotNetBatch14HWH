@@ -1,6 +1,4 @@
-﻿using DotNetBatch14HWH.RestApi5.Features.Transfer;
-
-namespace DotNetBatch14HWH.MiniKpay.Features.Kpay
+﻿namespace DotNetBatch14HWH.MiniKpay.Features.Kpay
 {
     public class RegisterService
     {

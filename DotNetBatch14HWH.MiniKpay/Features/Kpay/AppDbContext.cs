@@ -2,7 +2,7 @@
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 
-namespace DotNetBatch14HWH.RestApi5.Features.Transfer
+namespace DotNetBatch14HWH.MiniKpay.Features.Kpay
 {
     public class AppDbContext : DbContext
     {

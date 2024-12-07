@@ -1,5 +1,4 @@
-﻿using DotNetBatch14HWH.RestApi5.Features.Transfer;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace DotNetBatch14HWH.MiniKpay.Features.Kpay
 {
